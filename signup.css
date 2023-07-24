@@ -1,0 +1,84 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 20px;
+    background-image: url(hos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 3;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    opacity: 3;
+}
+
+h6 a {
+    text-align: center;
+    color: red;
+    font-size: large;
+    text-decoration: none;
+    opacity: 3;
+}
+
+.error {
+    text-align: center;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer {
+    text-align: center;
+    color: #333;
+    font-size: medium;
+    opacity: 3;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input [type="number"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+li {
+    color: red;
+    margin-bottom: 5px;
+}
